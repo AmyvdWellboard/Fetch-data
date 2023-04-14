@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.2%;
+}
+
+body {
+  font-size: 2rem;
+  font-family: 'Open Sans', sans-serif;
+
+  background: #ED4264;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #FFEDBC, #ED4264);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #FFEDBC, #ED4264);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.Form__wrapper{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+}
